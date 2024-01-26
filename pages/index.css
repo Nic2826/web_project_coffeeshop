@@ -18,9 +18,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    width: 100%;
     box-sizing: border-box; 
-    border-style: solid;
-    border-color: red;
     padding: 30px 80px 40px;
     position: relative;
   }
@@ -66,6 +65,7 @@
     margin-bottom: 28px;
     margin-right: auto;
     margin-top: 183px;
+    z-index: 1;
   }
   
   .header__title_span{
@@ -74,8 +74,6 @@
     font-weight: normal;    
     /*font-size: 60px;    
     line-height: 72px;  ---- redundante pq ya los hereda del elemento padre (header__title)*/  
-    color: #2F80ED;
-    border-color: red;
     margin-top: 0;
   }
 
@@ -105,7 +103,6 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    border-style: solid;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -117,21 +114,10 @@
   }
   
   .content {
-    /*padding: 100px 0 120px 80px;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    
-    */
-   /* display: flex;*/
-    padding-top: 100px;
-    padding-bottom: 215px;
     padding-left: 80px;
     background-color: #0a2750;
     box-sizing: border-box;
-    border-style: solid;
     color: #fff;
-    display: flex;
     background-image: url(../images/background_recipes.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -139,12 +125,9 @@
   }
   
   .recipes{
-   /* padding: 100px 0 120px 80px;
+    padding: 100px 0 215px 0;
     display: flex;
-    align-items: start;
-    justify-content: space-between;
-    box-sizing: border-box;
-    background-color: #f2f2f2;*/
+    flex-direction: column;
   }
 
   .recipes__title {
@@ -155,6 +138,7 @@
     line-height: 52px;
     max-width: 580px;
     margin-bottom: 24px;
+    padding-left: 80px;
   }
   
   .recipes__subtitle {
@@ -165,45 +149,38 @@
     line-height: 30px;
     max-width: 438px;
     margin-top: 0;
+    padding-left: 80px;
   }
   
- .recipes__videos{
-    display: flex;
-    margin: auto;
-    /*box-sizing: border-box;
-    border-style: solid;
-    border-color: green;
-    justify-content: center;
-    flex-wrap: wrap;*/
-  }
-
   .recipes__video-item{
     list-style-type: none;
     box-sizing: border-box;
-    border-style: solid;
     border-color: aqua;
+    column-gap: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    column-gap: 40px;
     padding: 0;
+    margin: auto;
+    justify-content: center;
   }
   
   .recipes_iframe{
     border: none;
     width: 480px;
     height: 273px;
-    border-style: solid;
-    border-color: red;
   }
 
+  .recipes__video-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .recipes__video-caption{
     font-family: "Inter";
     font-style: normal;    
     font-weight: 500;    
     font-size: 20px;    
     line-height: 30px;
-    flex-direction: column;
   }
   
   
