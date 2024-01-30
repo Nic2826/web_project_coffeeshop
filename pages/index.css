@@ -148,7 +148,7 @@
   padding-left: 80px;
 }
 
-.recipes__videos{
+.recipes__video-item{
   list-style-type: none;
   box-sizing: border-box;
   column-gap: 40px;
