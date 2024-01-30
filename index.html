@@ -84,7 +84,6 @@
                 <h2 class="recipes__title">Recetas</h2>
                 <p class="recipes__subtitle">Echa un vistazo a algunas de nuestras recetas para que elabores tu propio café.</p>
 
-                <div class="recipes__videos">
                   <ul class="recipes__video-item">
 
                     <li class="video-item"> <!--iframe 1-->
@@ -108,12 +107,41 @@
                     </li>
 
                   </ul>
-                </div>
 
             </section>
 
             <section id="Reservar-id" class="reservation">
 
+              <div class="reservation__form">
+              <h2 class="reservation__title">Reservar una mesa</h2>
+
+              <form class="form">
+                  <fieldset class="form__fieldset">
+
+                    <label class="form__label" for="name"> Nombre *</label>
+                      <input type="text" class="form__input" id="name" name="name" placeholder="Nombre Apellido" required>
+                    
+                    <label class="form__label" for="numero"> Número de comensales *</label>
+                      <input type="number" class="form__input" id="numero" name="numero" placeholder="1-8" required>
+
+                    <label class="form__label" for="fecha"> Fecha y hora * </label>
+                      <input type="date" class="form__input" id="fecha" required>
+
+                    <label class="form__label" for="email"> Tu correo electrónico * </label>
+                      <input type="email" class="form__input" id="email" name="email" placeholder="email@email.com" required>
+
+                    <button type="submit" class="form__button">Reservar una mesa</button>
+                    
+                      
+                      <label class="form__label form__label-checkbox" for="verificador"> 
+                        <input type="checkbox" class="form__checkbox" id="verificador" required>                
+                        <span>Acepto los términos de uso</span>
+                      </label>
+
+
+                  </fieldset>
+              </form>
+            </div>
             </section>
 
             <section id="Menu-id" class="menu">
