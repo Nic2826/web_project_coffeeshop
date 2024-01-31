@@ -6,15 +6,15 @@
     <meta name="keywords" content="HTML, CSS, café">
     <meta name="author" content="Nicolle Algarin">
     <meta name="description" content="Café de especialidad en Triple Peaks, recetas para preparar el café, menú y formulario para reservar">
-    <link rel="shortcut icon" href="./favicon.ico.ico" />
-    <!-- <link rel="stylesheet" href="./vendor/normalize.css" /> -->
-    <link rel="stylesheet" href="./pages/index.css" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-
     <title>Triple Espresso</title>
+    <link rel="shortcut icon" href="./favicon.ico" >
+    <!-- <link rel="stylesheet" href="./vendor/normalize.css" /> -->
+    <link rel="stylesheet" href="./pages/index.css" >    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    
 </head>
 <body>
     <div class="page">
@@ -25,7 +25,7 @@
               src="./images/logo_coffeeshop_dark.svg"
               alt="Triple Peaks Café Logo"
               class="nav__logo"
-              />
+              >
 
               <ul class="nav__links">
                 <li>
@@ -59,7 +59,7 @@
               src="./images/inside_coffee_shop.png"
               alt="Illustration 'Inside the cofeeshop'"
               class="header__image" 
-              />
+              >
             </div>
 
             <div class="header__footer">
@@ -150,77 +150,81 @@
               <h2 class="menu__title">Menú</h2>
               <p class="menu__subtitle">Elaboramos nuestro café con granos certificados de comercio justo, tostados localmente, y usamos tazas biodegradables. Todos los tés de nuestra colección a $2/taza.</p>
 
-
-                <ul class="menu__cards"> 
+                <div class="card__content"> 
                   
-                   <div class="card__content">    <!--primer bloque de la lista DE FILTRO -->
-                    <li class="card">                                        
-                      <h3 class="card__title">De filtro </h3> 
-                                    
-                      <li class="card__list-item">
-                        Regular (350 ml)
-                        <span class="card__list-divider"></span>
-                        $1
-                      </li>                                                                       
-                    </li>
+                  <div class="menu__cards">    <!--primer bloque de la lista DE FILTRO -->                                                              
+                    <h3 class="card__title">De filtro </h3> 
 
-                      <li class="card__list-item">
-                        Grande (470 ml)
+                      <ul class="card">            
+                        <li class="card__list-item">
+                          Regular (350 ml)
+                          <span class="card__list-divider"></span>
+                          $1
+                        </li>                                                                       
+                        <!-- </li> -->
+
+                        <li class="card__list-item">
+                          Grande (470 ml)
+                          <span class="card__list-divider"></span>
+                          $1.25
+                        </li>
+
+                        <li class="card__list-item">
+                          XL (590 ml)
+                          <span class="card__list-divider"></span>
+                          $1.5
+                        </li>
+
+                        <li class="card__list-item">
+                          Tamaño familiar (700 ml, descafeinado)
+                          <span class="card__list-divider"></span>
+                          $1.75
+                        </li>
+
+                        <li class="card__list-item">
+                        Café helado (470 ml)
                         <span class="card__list-divider"></span>
                         $1.25
-                      </li>
-
-                      <li class="card__list-item">
-                        XL (590 ml)
-                        <span class="card__list-divider"></span>
-                        $1.5
-                      </li>
-
-                      <li class="card__list-item">
-                        Tamaño familiar (700 ml, descafeinado)
-                        <span class="card__list-divider"></span>
-                        $1.75
-                      </li>
-
-                      <li class="card__list-item">
-                      Café helado (470 ml)
-                      <span class="card__list-divider"></span>
-                      $1.25
-                    </li>
+                        </li>
+                      </ul>
                   </div>
 
-                  <div class="card__content">   <!--segundo bloque de la lista  ESPRESO -->
-                    <li class="card">                    
-                        <h3 class="card__title">Espresso </h3>                    
-                          <li class="card__list-item">
-                            Macchiato
-                            <span class="card__list-divider"></span>
-                            $2.25
-                          </li>                    
-                    </li>
-                    <li class="card__list-item">
-                      Cortado
-                      <span class="card__list-divider"></span>
-                      $2.5
-                    </li>
+                          <!--segundo bloque de la lista  ESPRESO -->
+                  <div class="menu__cards">
+                    <h3 class="card__title">Espresso </h3>  
 
-                    <li class="card__list-item">
-                      Mocha
-                      <span class="card__list-divider"></span>
-                      $3
-                    </li>
+                      <ul class="card">                                                               
+                            <li class="card__list-item">
+                              Macchiato
+                              <span class="card__list-divider"></span>
+                              $2.25
+                            </li>                    
+                        
+                        <li class="card__list-item">
+                          Cortado
+                          <span class="card__list-divider"></span>
+                          $2.5
+                        </li>
 
-                    <li class="card__list-item">
-                    Amanecer en Bay Area (descafeinado)
-                    <span class="card__list-divider"></span>
-                    $10
-                  </li>
+                        <li class="card__list-item">
+                          Mocha
+                          <span class="card__list-divider"></span>
+                          $3
+                        </li>
+
+                        <li class="card__list-item">
+                        Amanecer en Bay Area (descafeinado)
+                        <span class="card__list-divider"></span>
+                        $10
+                        </li>
+                      </ul>
                   </div>
                 
-
-                  <div class="card__content">
-                    <li class="card">                       
-                      <h3 class="card__title">Repostería </h3>                      
+                        <!--segundo bloque de la lista  REPOSTERIA -->
+                  <div class="menu__cards">
+                    <h3 class="card__title">Repostería </h3>
+                      <ul class="card">                       
+                                              
                         <li class="card__list-item">
                           Croissant de almendra
                           <span class="card__list-divider"></span>
@@ -255,11 +259,9 @@
                           <span class="card__list-divider"></span>
                           $0.25
                         </li>                        
-                      </div> 
-                    </li>
-
-                </ul>
-
+                      </ul> 
+                  </div>
+                </div>
             </section>
 
             <section id="Contactos-id" class="about">
@@ -280,7 +282,7 @@
             src="./images/logo_coffeeshop_light.svg"
             alt="Triple Peaks Café Logo blanco"
             class="footer__logo"
-            />
+            >
 
             <div class="footer__social">
               <p class="footer__social-heading"> Redes Sociales</p>
@@ -313,7 +315,7 @@
           <p class="footer__copyright"> © 2024 Nicolle Algarín</p>
 
         </footer>    
-    </di>
+    </div>
     
 </body>
 </html>
