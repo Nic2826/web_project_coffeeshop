@@ -1,4 +1,15 @@
-.page{
+
+@import url(../vendor/normalize.css);
+@import url(../blocks/pages.css);
+@import url(../blocks/header.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/about.css);
+@import url(../blocks/footer.css);
+
+
+/*.page{
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
@@ -6,9 +17,9 @@
   font-size: 16px;
   line-height: 20px;
   height: 100vh;
-}
+}*/
 
-.header {
+/*.header {
   height: 100vh; 
   min-height: 720px;
   max-height: 800px;
@@ -72,8 +83,6 @@
   font-family: "Noto Serif";
   font-style: italic;  
   font-weight: normal;    
-  /*font-size: 60px;    
-  line-height: 72px;  ---- redundante pq ya los hereda del elemento padre (header__title)*/  
   margin-top: 0;
 }
 
@@ -110,9 +119,9 @@
   line-height: 20px;
   color: #838383;
   z-index: 1;
-}
+}]*/
 
-.recipes{
+/*.recipes{
   padding: 100px 0 215px 0;
   display: flex;
   flex-direction: column;
@@ -176,9 +185,9 @@
   font-weight: 500;    
   font-size: 20px;    
   line-height: 30px;
-}
+}*/
 
-.reservation{ 
+/*.reservation{ 
   background-color: #D9E7FF;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -273,4 +282,5 @@
   justify-content: center;
   column-gap: 12px;
   border-radius: 2px;
-}
+}*/
+
