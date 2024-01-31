@@ -51,18 +51,18 @@
 }
 
 .card{  
-    width: 540px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.card__content{
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto 100px;
-    row-gap: 100px;   
+    row-gap: 100px;  
+}
+
+.card__content{
+    width: 540px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .menu__cards{  
