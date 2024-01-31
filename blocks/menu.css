@@ -51,11 +51,9 @@
 }
 
 .card{  
+    width: 540px;
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
-    display: flex;  
-    flex-direction: column;
-    row-gap: 16px;
 }
 
 .card__content{
@@ -68,9 +66,11 @@
 }
 
 .menu__cards{  
-    width: 540px;
-    margin: 0 auto;
     padding: 0;
+    margin: 0;
+    display: flex;  
+    flex-direction: column;
+    row-gap: 16px;
 }
 
 .card__list-item{
