@@ -4,4 +4,4 @@ Descripción del proyecto: En el proyecto se utilizan las tecnologías HTML y CS
 
 Planes de mejora del proyecto: 
 -que la imagen del header se pueda agrandar un poco mediante un hover o tener más opciones de imagenes y unos controles para saltar entre imágenes, esto haría la página más dinámica y atractiva a la vista
--personalizar los mensajes del formulario cuando se invluyen validaciones y cuando un campo es requerido
+-personalizar los mensajes del formulario cuando se incluyen validaciones de formato y cuando un campo es requerido
