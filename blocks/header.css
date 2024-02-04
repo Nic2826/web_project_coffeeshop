@@ -34,6 +34,7 @@
     font-weight: normal;    
     /*font-size: 60px;    
     line-height: 72px;  ---- redundante pq ya los hereda del elemento padre (header__title)*/  
+    color: #2F80ED;
     margin-top: 0;
   }
   
